@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    margin: 24px 0;
+    line-height: 2;
+
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+.cookie-wrapper{
+    padding: 32px;
+    
+}
+.cookie-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #f5f6fa;
+    padding: 0 32px;
+    transition: 400ms;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+}
+
+.cookie-p{
+margin: auto;
+  width: 50%;
+  border: 3px solid transparent;
+  padding: 10px;
+}
+.cookie-btn{
+        background: #e84118;
+        border: 0;
+        color: #f5f6fa;
+        padding: 11px 48px;
+        font-size: 18px;
+        margin-bottom: 18px;
+        border-radius: 8px;
+cursor: pointer;
+    }
+
+    .inputtext{
+        padding: 12px 100px;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+    @media (max-width:768px){
+        .spanmail{
+            margin-left: 150px;
+            margin-right: 150px;
+
+            /* margin-right: 150px; */
+        }
+        .cookie-p{
+              margin: 0;
+              width: 100%;
+              border: 3px solid transparent;
+              padding: 1px;
+            }
+            .inputtext{
+                /* margin-top: 10px; */
+                padding: 12px 30px;
+                border: 2px solid black;
+                border-radius: 8px;
+            }
+            .cookie-btn{
+                background: #e84118;
+                border: 0;
+                color: #f5f6fa;
+                padding:   7px 45px;
+                /* margin-left: 120px; */
+                font-size: 18px;
+                margin-bottom: 18px;
+                border-radius: 8px;
+        cursor: pointer;
+            }
+       
+      } 

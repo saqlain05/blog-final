@@ -1,0 +1,48 @@
+
+
+.lernmore{
+    background-color: brown;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+.lernmore:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* border: 3px solid;  */
+    background-color: #3d3d79;
+    color: white;
+    
+  }
+  .para-more{
+      /* font:bold; */
+      text-align: center;
+      font-size: 16px;
+      background-color: rgb(233, 158, 170,0.6);
+      color: rgb(0, 0, 0,1);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  
+  #more{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+  .lernmore1{
+      align-items: flex-end;
+  }
+  
+
+  
